@@ -17,4 +17,16 @@
 
 body{
     font-family: "Roboto",-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    height: 100vh;
+    display:flex;
 }
+
+.hero-section{
+    background-image:url('/assets/images/background-image.jpg');
+    width:calc((1/3)*100%);
+}
+
+.form-section{
+    width:calc((2/3)*100%);
+}
+

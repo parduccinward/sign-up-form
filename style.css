@@ -41,10 +41,14 @@ body{
 
 .hero-logo{
     display:flex;
+    justify-content:center;
+    position:absolute;
+    top:15rem;
+    left: 5rem;
 }
 
 .hero-logo img{
-    height:200px;
+    height:100px;
     width: auto;
 }
 

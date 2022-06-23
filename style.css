@@ -1,3 +1,9 @@
+:root{
+    --dark-electric-blue: #3E5F77ff;
+    --rich-black-fogra-29: #0A161Eff;
+    --prussian-blue: #162B3Cff;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
     font-family: 'voyager-heavy';
@@ -32,11 +38,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width:calc((1/3)*100%);
+    width:calc((2/5)*100%);
 }
 
 .form-section{
-    width:calc((2/3)*100%);
+    width:calc((3/5)*100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.form-text{
+    padding: 50px;
+    padding-left: 0;
+    font-size: 2.1rem;
 }
 
 .hero-logo{
@@ -44,7 +61,7 @@ body{
     justify-content:center;
     position:absolute;
     top:30%;
-    left:10%;
+    left:15%;
 }
 
 .hero-logo img{
@@ -58,5 +75,47 @@ body{
     color: white;
     font-size:4rem;
     letter-spacing: 0.2rem;
+}
+
+.line-1, .line-2, .line-3{
+    display:flex;
+    gap:100px;
+}
+
+label,input{
+    display: block;
+}
+
+label{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #454545;
+}
+
+input{
+    height: 28px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+p button {
+    margin-top: 50px;
+}
+
+button{
+    border-radius: 8px;
+    width: 225px;
+    height: 50px;
+    background-color: var(--dark-electric-blue);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.exist-account span {
+    color: var(--dark-electric-blue);
 }
 

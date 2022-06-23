@@ -43,8 +43,8 @@ body{
     display:flex;
     justify-content:center;
     position:absolute;
-    top:15rem;
-    left: 5rem;
+    top:30%;
+    left:10%;
 }
 
 .hero-logo img{
@@ -57,5 +57,6 @@ body{
     align-self: center;
     color: white;
     font-size:4rem;
+    letter-spacing: 0.2rem;
 }
 

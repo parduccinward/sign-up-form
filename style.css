@@ -1,5 +1,6 @@
 :root{
     --dark-electric-blue: #3E5F77ff;
+    --dark-electric-black-blue:#374650;
     --rich-black-fogra-29: #0A161Eff;
     --prussian-blue: #162B3Cff;
 }
@@ -116,6 +117,10 @@ button{
     font-weight: bold;
     color: white;
     border: none;
+}
+
+button:hover{
+    background-color: var(--dark-electric-black-blue);
 }
 
 .exist-account span {
